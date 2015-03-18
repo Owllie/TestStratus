@@ -1,0 +1,118 @@
+{
+	"scenes": {
+		"test": {
+			"entities": {
+				"Cube": {
+					"transform": {
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								-7.76,
+								-11.21,
+								-11.21
+							]
+						},
+						"position": {
+							"type": "vector",
+							"parameters": [
+								0,
+								1.81,
+								0
+							]
+						},
+						"rotation": {
+							"type": "quaternion",
+							"parameters": [
+								0,
+								0,
+								0,
+								1
+							]
+						}
+					},
+					"mesh": {
+						"materialType": "phong",
+						"materialColour": 4696327
+					},
+					"physics": {
+						"mass": 439.58,
+						"shape": "sphere"
+					}
+				},
+				"Light": {
+					"transform": {
+						"rotation": {
+							"type": "quaternion",
+							"parameters": [
+								0,
+								0,
+								0,
+								1
+							]
+						},
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-16.09846309473354,
+								12.69,
+								67.07
+							]
+						},
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								228.4,
+								257.4,
+								290.03
+							]
+						}
+					},
+					"MainLight": {},
+					"light": {
+						"type": "point",
+						"intensity": 1,
+						"distance": 1000,
+						"shadowDarkness": 0.51,
+						"exponent": 382.18,
+						"shadowCameraFov": 206.95,
+						"colour": 16777215,
+						"angle": 0.45,
+						"castShadow": true,
+						"shadowCameraNear": 0
+					}
+				},
+				"Plane": {
+					"transform": {
+						"position": {
+							"type": "vector",
+							"parameters": [
+								-21.55,
+								19.83,
+								-30.17
+							]
+						},
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								300,
+								300,
+								1
+							]
+						}
+					},
+					"Mesh": {},
+					"mesh": {
+						"materialType": "phong"
+					},
+					"Mesh Test": {}
+				}
+			}
+		}
+	},
+	"config": {
+		"shadowMapEnabled": true,
+		"shadowMapType": "BasicShadowMap",
+		"clearColour": 21844,
+		"pointerLockEnabled": false
+	}
+}
