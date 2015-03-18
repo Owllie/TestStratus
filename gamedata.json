@@ -35,7 +35,7 @@
 						"materialColour": 4696327
 					},
 					"physics": {
-						"mass": 439.58,
+						"mass": 0,
 						"shape": "sphere"
 					}
 				},
@@ -105,6 +105,39 @@
 						"materialType": "phong"
 					},
 					"Mesh Test": {}
+				},
+				"Camera": {
+					"transform": {
+						"rotation": {
+							"type": "quaternion",
+							"parameters": [
+								0.3116820239292357,
+								0.6002083835703383,
+								0.2196423836776916,
+								0.703108409524192
+							]
+						},
+						"position": {
+							"type": "vector",
+							"parameters": [
+								42.24,
+								-214.66,
+								43.97
+							]
+						},
+						"scale": {
+							"type": "vector",
+							"parameters": [
+								-11.21,
+								-6.03,
+								4.31
+							]
+						}
+					},
+					"camera": {
+						"far": 1000,
+						"fov": 349.14
+					}
 				}
 			}
 		}
